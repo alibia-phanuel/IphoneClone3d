@@ -7,6 +7,10 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "alibia",
     project: "javascript-react"
+  }), sentryVitePlugin({
+    org: "alibia",
+    project: "iphoneclone3danalyse",
+    url: "https://sentry.io/"
   })],
 
   build: {

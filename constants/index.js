@@ -3,7 +3,7 @@ import {
   highlightFourthVideo,
   highlightSecondVideo,
   highlightThirdVideo,
-} from "../utils";
+} from "../src/utils";
 //image
 import yellowImg from "../src/assets/images/yellow.jpg";
 import whiteImg from "../src/assets/images/white.jpg";
